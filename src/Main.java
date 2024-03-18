@@ -1,5 +1,20 @@
+import LivingBeingsPackage.LivingBeings;
+
 public class Main {
+
+
     public static void main(String[] args) {
-        System.out.println("Mensaje a imprimir");
+
+        LivingBeingCreator Dios = new LivingBeingCreator();
+
+        LivingBeings[] mundo = new LivingBeings[1];
+        //1. Humano , 2. Pajaro
+        Dios.crearSerVivo(1, mundo);
+
+        for(int i = 0; i < mundo.length; i++){
+            System.out.println(i + "." + mundo[i].getNombre() + "\n");
+        }
+
+
     }
 }
