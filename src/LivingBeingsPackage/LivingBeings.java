@@ -1,8 +1,13 @@
 package LivingBeingsPackage;
 
-public abstract class LivingBeings{
+import BeingsOfTheEarth.EarthBeing;
+import SkyBeings.SkyBeing;
+
+public abstract class LivingBeings implements EarthBeing, SkyBeing {
     protected int edad;
     protected String nombre;
+
+    protected String raza;
 
     public LivingBeings(String nombre){
         this.nombre = nombre;
@@ -33,4 +38,6 @@ public abstract class LivingBeings{
     public void die(){
         System.out.println(this.nombre + " murio");
     }
+
+
 }

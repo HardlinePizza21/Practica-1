@@ -5,16 +5,28 @@ public class LivingBeingCreator implements Creator{
 
 
     @Override
-    public LivingBeings crearSerVivo(int tipo) {
+    public void crearSerVivo(int tipo, LivingBeings[] arreglo) {
+        LivingBeings serVivo;
         switch (tipo){
             case 1:
-                return new Human();
+                serVivo = new Human("Negro");
+                break;
             case 2:
-                return new Pajaro();
+                serVivo = new Pajaro();
+                break;
             case 3:
-                return new Tortuga();
-            default:
-                return null;
+                serVivo = new Tortuga();
+                break;
+            default: serVivo = null;
+                break;
         }
+
+        for(int i = 0; i < arreglo.length; i++){
+            if (arreglo[i] == null) {
+                arreglo[i] = serVivo;
+            }
+        }
+
+
     }
 }

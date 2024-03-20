@@ -16,7 +16,7 @@ public class Pajaro extends LivingBeings implements SkyBeing, EarthBeing {
 
     @Override
     public void caminar() {
-        EarthBeing.super.caminar();
+        System.out.println("Camino con mis patitas de pajaro");
     }
 
     @Override

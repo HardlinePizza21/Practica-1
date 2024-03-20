@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ecd931-353e-4453-b8a2-10b93168fe38" name="Changes" comment="Ultimo commit">
-      <change afterPath="$PROJECT_DIR$/src/BeingsOfTheEarth/Tortuga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkyBeings/Pajaro.java" afterDir="false" />
+    <list default="true" id="46ecd931-353e-4453-b8a2-10b93168fe38" name="Changes" comment="Commit despues del almuerzo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeingsOfTheEarth/EarthBeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeingsOfTheEarth/EarthBeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeingsOfTheEarth/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeingsOfTheEarth/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeingsOfTheEarth/Tortuga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeingsOfTheEarth/Tortuga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LivingBeingCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivingBeingCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LivingBeingsPackage/LivingBeings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivingBeingsPackage/LivingBeings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkyBeings/SkyBeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkyBeings/SkyBeing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkyBeings/SkyBeings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkyBeings/Pajaro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkyBeings/Pajaro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnknowEntity.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,8 @@
       <workItem from="1710715108961" duration="8701000" />
       <workItem from="1710780519910" duration="195000" />
       <workItem from="1710948470858" duration="4196000" />
+      <workItem from="1710959637715" duration="50000" />
+      <workItem from="1710962060399" duration="2244000" />
     </task>
     <task id="LOCAL-00001" summary="Segundo Commit">
       <option name="closed" value="true" />
@@ -119,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710723367011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit despues del almuerzo">
+      <option name="closed" value="true" />
+      <created>1710959666857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710959666857</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Segundo Commit" />
     <MESSAGE value="Ultimo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ultimo commit" />
+    <MESSAGE value="Commit despues del almuerzo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit despues del almuerzo" />
   </component>
 </project>

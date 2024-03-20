@@ -4,12 +4,9 @@ import LivingBeingsPackage.LivingBeings;
 public class Human extends LivingBeings implements EarthBeing, SkyBeing{
 
 
+
     public Human(String nombre){
         super(nombre);
-    }
-
-    public Human(){
-
     }
 
     @Override

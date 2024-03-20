@@ -1,6 +1,6 @@
 import LivingBeingsPackage.LivingBeings;
 
 interface Creator {
-    public LivingBeings crearSerVivo(int tipo);
+    public void crearSerVivo(int tipo, LivingBeings[] arreglo);
 
 }

@@ -4,7 +4,7 @@ public class Tortuga extends LivingBeings implements EarthBeing{
 
     @Override
     public void caminar() {
-        EarthBeing.super.caminar();
+        System.out.println("Camino lento");
     }
 
     @Override
@@ -19,6 +19,16 @@ public class Tortuga extends LivingBeings implements EarthBeing{
 
     @Override
     public void respaw() {
+
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("No puedo volar, soy una tortuga");
+    }
+
+    @Override
+    public void changeDimension() {
 
     }
 }
