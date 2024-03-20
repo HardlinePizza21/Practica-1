@@ -1,10 +1,6 @@
 package SkyBeings;
 public interface SkyBeing{
-    default void fly(){
-        System.out.println("Vuelo con mis alas");
-    }
+    public void fly();
 
-    default void changeDimension(){
-        System.out.println("Cambio de dimension");
-    }
+    public void changeDimension();
 }

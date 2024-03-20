@@ -16,8 +16,6 @@ public abstract class LivingBeings{
         return this.nombre;
     }
 
-    abstract public void fly();
-
     protected void born(){
         this.edad = 0;
         System.out.println("Nacio "+ this.nombre);
