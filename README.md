@@ -1,1 +1,1 @@
-Develop a system called "creation of living beings"
+This code implements a system called 'creation of living beings' using a factory design pattern in java (version 1.8.0_51 and the 17 amazon corretto JDK). It is an approach using the vast options java has to offer as an object oriented programming language, the code takes advantage of the interfaces and de POO paradigms to create a system divided in two main categories beings that belong to the sky an the earth ones.  
