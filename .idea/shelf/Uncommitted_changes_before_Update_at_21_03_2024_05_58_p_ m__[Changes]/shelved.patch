@@ -1,0 +1,88 @@
+Index: src/UnknowEntity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import LivingBeingsPackage.LivingBeings;\r\n\r\npublic class UnknowEntity extends LivingBeings {\r\n\r\n    public void fly(){\r\n        System.out.println(\"0101010100101100\");\r\n    }\r\n    public void hacerRuido(){\r\n        System.out.println(\"Lorem ipsum\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/UnknowEntity.java b/src/UnknowEntity.java
+--- a/src/UnknowEntity.java	
++++ b/src/UnknowEntity.java	
+@@ -5,7 +5,27 @@
+     public void fly(){
+         System.out.println("0101010100101100");
+     }
++
++    @Override
++    public void changeDimension() {
++
++    }
+     public void hacerRuido(){
+         System.out.println("Lorem ipsum");
+     }
++
++    @Override
++    public void caminar() {
++
++    }
++
++    @Override
++    public void respawn() {
++
++    }
++
++    @Override
++    protected void die() {
++
++    }
+ }
+Index: src/SkyBeings/SkyBeings.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package SkyBeings;\r\n\r\nimport LivingBeingsPackage.LivingBeings;\r\n\r\npublic class SkyBeings extends LivingBeings implements SkyBeing{\r\n    public void fly(){\r\n        System.out.println(\"Estoy volando con mis alas\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/SkyBeings/SkyBeings.java b/src/SkyBeings/SkyBeings.java
+--- a/src/SkyBeings/SkyBeings.java	
++++ b/src/SkyBeings/SkyBeings.java	
+@@ -1,9 +1,41 @@
+ package SkyBeings;
+-
++import BeingsOfTheEarth.EarthBeing;
+ import LivingBeingsPackage.LivingBeings;
+ 
+-public class SkyBeings extends LivingBeings implements SkyBeing{
++public class SkyBeings extends LivingBeings implements SkyBeing, EarthBeing {
++
++    @Override
+     public void fly(){
+         System.out.println("Estoy volando con mis alas");
+     }
++
++    @Override
++    public void changeDimension() {
++        System.out.println("Cambio de dimensión con mis alas");
++    }
++
++    @Override
++    public void caminar() {
++        System.out.println("Camino como ser del cielo");
++    }
++
++    @Override
++    public void born() {
++        System.out.println("Nacio un ser del cielo");
++    }
++
++    @Override
++    public void grown() {
++        System.out.println("Crezco como los ceres del cielo");
++    }
++
++    @Override
++    public void respawn() {
++        System.out.println("respawn del cielo");
++    }
++
++    @Override
++    public void die() {
++        System.out.println("Muero, y dejo mis plumas");
++    }
+ }
