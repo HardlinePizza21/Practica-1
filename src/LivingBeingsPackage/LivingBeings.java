@@ -7,14 +7,9 @@ public abstract class LivingBeings implements EarthBeing, SkyBeing {
     protected int edad;
     protected String nombre;
 
-    protected String raza;
-
     public LivingBeings(String nombre){
         this.nombre = nombre;
         this.born();
-    }
-    public LivingBeings(){
-
     }
 
     public String getNombre(){
@@ -28,16 +23,13 @@ public abstract class LivingBeings implements EarthBeing, SkyBeing {
 
     protected void grown(){
         this.edad++;
-
     }
 
     protected void reproduce(){
         System.out.println(this.nombre + " se esta reproduciendo");
     }
 
-    public void die(){
-        System.out.println(this.nombre + " murio");
-    }
+    protected abstract void die();
 
 
 }
